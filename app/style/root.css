@@ -1,0 +1,102 @@
+/* RESET ---------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* BODY ----------------------------------- */
+body {
+  padding: var(--gap-o);
+  background-color: var(--clr-bg);
+}
+
+/* TYPOGRAPHY ------------------------------ */
+* {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+}
+
+p,
+span,
+main,
+footer,
+nav,
+div {
+  color: var(--clr-ink-light);
+  border-color:var(--clr-primary-light-x);
+}
+
+.ink-light {
+  color: var(--clr-ink-light);
+}
+
+.ink-glow-01 {
+  filter: drop-shadow(var(--ev-01));
+  animation-name: ink-glow-01;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes ink-glow-01 {
+  from {
+    filter: drop-shadow(var(--ev-01));
+  }
+  to {
+    filter: drop-shadow(var(--ev-1));
+  }
+}
+
+/* BUTTONS -------------------------------- */
+.branding {
+  height:150px
+}
+/* TEMP */
+.button {
+  height: var(--sp-5);
+  padding: 0 var(--sp-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--sp-01);
+  color: var(--clr-ink-on-heavy);
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: var(--clr-primary);
+  cursor: pointer;
+}
+/*  */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  right:auto;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  white-space: nowrap;
+  border-radius: 3px;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

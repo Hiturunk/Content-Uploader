@@ -1,0 +1,6 @@
+{
+  "ev": {
+    "01": { "value": "0 0 {sp.01} {clr.primary-light}" },
+    "1": { "value": "0 0 {sp.1} {clr.primary-light}" }
+  }
+}

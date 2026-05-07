@@ -1,0 +1,11 @@
+/* HOST ----------------------------------- */
+.dialog-rail-host {
+  height: var(--sp-9);
+  padding: var(--gap-i);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--clr-primary-light-x);
+  border-top: none;
+  border-radius: 0 0 var(--gap-i) var(--gap-i);
+}

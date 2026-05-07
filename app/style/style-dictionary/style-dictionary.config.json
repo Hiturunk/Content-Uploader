@@ -1,0 +1,27 @@
+{
+  "source": ["./app/style/style-dictionary/*.tokens.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "./app/style/style-dictionary/",
+      "files": [
+        {
+          "destination": "_STYLE_TOKENS_.css",
+          "format": "css/variables",
+          "options": { "outputReferences": true }
+        }
+      ]
+    },
+    "javascript": {
+      "transformGroup": "js",
+      "buildPath": "./app/style/style-dictionary/",
+      "files": [
+        {
+          "destination": "_STYLE_TOKENS_.js",
+          "format": "javascript/es6",
+          "options": { "outputReferences": true }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 19 Jul 2023 12:31:56 GMT
+ */
+
+:root {
+  --sp-l-01: 6px;
+  --sp-l-12: 144px;
+  --sp-l-11: 132px;
+  --sp-l-10: 120px;
+  --sp-l-9: 108px;
+  --sp-l-8: 96px;
+  --sp-l-7: 84px;
+  --sp-l-6: 72px;
+  --sp-l-5: 60px;
+  --sp-l-4: 48px;
+  --sp-l-3: 36px;
+  --sp-l-2: 24px;
+  --sp-l-1: 12px;
+  --sp-s-01: 4px;
+  --sp-s-12: 74px;
+  --sp-s-11: 68px;
+  --sp-s-10: 62px;
+  --sp-s-9: 56px;
+  --sp-s-8: 50px;
+  --sp-s-7: 44px;
+  --sp-s-6: 38px;
+  --sp-s-5: 32px;
+  --sp-s-4: 26px;
+  --sp-s-3: 20px;
+  --sp-s-2: 14px;
+  --sp-s-1: 8px;
+  --sp-01: 4px;
+  --sp-00: 2px;
+  --sp-12: 96px;
+  --sp-11: 88px;
+  --sp-10: 80px;
+  --sp-9: 72px;
+  --sp-8: 64px;
+  --sp-7: 56px;
+  --sp-6: 48px;
+  --sp-5: 40px;
+  --sp-4: 32px;
+  --sp-3: 24px;
+  --sp-2: 16px;
+  --sp-1: 8px;
+  --clr-bg: rgba(45, 43, 47, 1);
+  --clr-primary-light-x: rgba(242, 231, 255, 0.33);
+  --clr-primary-light: rgba(242, 231, 255, 0.75);
+  --clr-primary: rgba(242, 231, 255, 1);
+  --gap-i-s: var(--sp-1);
+  --gap-i: var(--sp-2);
+  --gap-o-x: var(--sp-5);
+  --gap-o: var(--sp-4);
+  --ev-01: 0 0 var(--sp-01) var(--clr-primary-light);
+  --ev-1: 0 0 var(--sp-1) var(--clr-primary-light);
+  --clr-ink-on-heavy: var(--clr-bg);
+  --clr-ink-light-x: var(--clr-primary-light-x);
+  --clr-ink-light: var(--clr-primary-light);
+  --clr-ink: var(--clr-primary);
+}

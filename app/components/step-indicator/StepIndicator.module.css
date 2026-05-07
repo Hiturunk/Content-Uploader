@@ -1,0 +1,70 @@
+/* HOST ----------------------------------- */
+#step-indicator {
+  height: var(--sp-9);
+  padding: var(--sp-l-01);
+  display: flex;
+  align-items: center;
+  text-align:center;
+  gap: var(--gap-i-s);
+  border: solid var(--clr-primary-light-x);
+  border-width: 1px;
+  border-radius: var(--gap-i) var(--gap-i) 0 0;
+}
+
+#step-indicator > NavLink {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-i);
+}
+
+#step-indicator > NavLink:hover {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-i);
+}
+
+/* ITEMS --------------------------------- */
+#step-indicator > a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-i);
+}
+
+#step-indicator > Form {
+  height: 100%;
+  display: none;
+  align-items: center;
+  gap: var(--gap-i);
+}
+
+.indicator {
+  width: var(--sp-2);
+  height: var(--sp-2);
+  border: 1px solid var(--clr-ink-light);
+  filter: drop-shadow(var(--ev-1));
+}
+
+.indicator-check {
+  width: var(--sp-2);
+  height: var(--sp-2);
+  border: 1px solid var(--clr-ink-light);
+  filter: drop-shadow(var(--ev-1));
+  background-color: white; /* Add this line to fill the element with red color */
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label-container span:first-child {
+  font-size: 0.675rem;
+}
+
+.label-container span:last-child {
+  filter: drop-shadow(var(--ev-1));
+}

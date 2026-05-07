@@ -1,0 +1,12 @@
+{
+  "clr": {
+    "primary": { "value": "rgba(242, 231, 255, 1.0)" },
+    "primary-light": { "value": "rgba(242, 231, 255, 0.75)" },
+    "primary-light-x": { "value": "rgba(242, 231, 255, 0.33)" },
+    "bg": { "value": "rgba(45, 43, 47, 1.0)" },
+    "ink": { "value": "{clr.primary}" },
+    "ink-light": { "value": "{clr.primary-light}" },
+    "ink-light-x": { "value": "{clr.primary-light-x}" },
+    "ink-on-heavy": { "value": "{clr.bg}" }
+  }
+}

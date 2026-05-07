@@ -1,0 +1,59 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 19 Jul 2023 12:31:56 GMT
+ */
+
+export const ClrPrimary = "rgba(242, 231, 255, 1.0)";
+export const ClrPrimaryLight = "rgba(242, 231, 255, 0.75)";
+export const ClrPrimaryLightX = "rgba(242, 231, 255, 0.33)";
+export const ClrBg = "rgba(45, 43, 47, 1.0)";
+export const ClrInk = "rgba(242, 231, 255, 1.0)";
+export const ClrInkLight = "rgba(242, 231, 255, 0.75)";
+export const ClrInkLightX = "rgba(242, 231, 255, 0.33)";
+export const ClrInkOnHeavy = "rgba(45, 43, 47, 1.0)";
+export const Ev1 = "0 0 8px rgba(242, 231, 255, 0.75)";
+export const Ev01 = "0 0 4px rgba(242, 231, 255, 0.75)";
+export const Sp1 = "8px";
+export const Sp2 = "16px";
+export const Sp3 = "24px";
+export const Sp4 = "32px";
+export const Sp5 = "40px";
+export const Sp6 = "48px";
+export const Sp7 = "56px";
+export const Sp8 = "64px";
+export const Sp9 = "72px";
+export const Sp10 = "80px";
+export const Sp11 = "88px";
+export const Sp12 = "96px";
+export const Sp00 = "2px";
+export const Sp01 = "4px";
+export const SpS1 = "8px";
+export const SpS2 = "14px";
+export const SpS3 = "20px";
+export const SpS4 = "26px";
+export const SpS5 = "32px";
+export const SpS6 = "38px";
+export const SpS7 = "44px";
+export const SpS8 = "50px";
+export const SpS9 = "56px";
+export const SpS10 = "62px";
+export const SpS11 = "68px";
+export const SpS12 = "74px";
+export const SpS01 = "4px";
+export const SpL1 = "12px";
+export const SpL2 = "24px";
+export const SpL3 = "36px";
+export const SpL4 = "48px";
+export const SpL5 = "60px";
+export const SpL6 = "72px";
+export const SpL7 = "84px";
+export const SpL8 = "96px";
+export const SpL9 = "108px";
+export const SpL10 = "120px";
+export const SpL11 = "132px";
+export const SpL12 = "144px";
+export const SpL01 = "6px";
+export const GapO = "32px";
+export const GapOX = "40px";
+export const GapI = "16px";
+export const GapIS = "8px";
